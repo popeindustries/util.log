@@ -3,12 +3,11 @@ Sets `window.debug` to `true/false` when location matches `//dev*` or `//localho
 
 ## Usage
 ```javascript
-var log = require('util.log');
 var config = {
 	locations: ['http://staging', 'http://test'];
 	timestamp: true;
 }
-log.init(config);
+require('util.log').init(config);
 ...
-log(myObject, 'hey');
+window.log(myObject, 'hey');
 ```
