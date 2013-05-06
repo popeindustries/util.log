@@ -25,7 +25,7 @@ exports.init = function(config) {
  * @param {*} arguments...
  */
 exports.log = function() {
-	var args = (1 <= arguments.length) ? Array.slice.call(arguments, 0) : [];
+	var args = (1 <= arguments.length) ? Array.prototype.slice.call(arguments, 0) : [];
 	if (!initialized) {
 		exports.init();
 	}
