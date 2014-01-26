@@ -8,6 +8,6 @@
 	"main": "index.js",
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/popeindustries/util.log.git"
+		"url": "git://github.com/thomaslein/util.log.git"
 	}
 }
