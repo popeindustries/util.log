@@ -1,7 +1,7 @@
 {
 	"name": "util.log",
 	"description": "A window.log() function enabled through a document.location whitelist",
-	"version": "0.2.0",
+	"version": "0.0.2",
 	"author": "popeindustries <alex@pope-industries.com>",
 	"dependencies": {
 	},
