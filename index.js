@@ -25,7 +25,9 @@ exports.init = function(config) {
  * @param {*} arguments...
  */
 exports.log = function() {
+	log.history = log.history || [];
 	var args = (1 <= arguments.length) ? Array.prototype.slice.call(arguments, 0) : [];
+	log.history.push(args);
 	if (!initialized) {
 		exports.init();
 	}
